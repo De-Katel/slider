@@ -1,0 +1,154 @@
+@font-face {
+    src: url('fonts/NunitoSans-Regular.ttf');
+    font-family: Nunuto_Sans;
+}
+
+@font-face {
+    src: url('fonts/YesevaOne-Regular.ttf');
+    font-family: YesevaOne;
+}
+
+@font-face {
+    src: url('fonts/NunitoSans-Italic.ttf');
+    font-family: Nunuto_Sans_itelic;
+}
+
+body {
+    min-width: 1300px;
+    margin: 0;
+    font-family: Nunuto_Sans;
+}
+
+.rulet_1 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    font-size: 22px;
+    padding-left: 0;
+    margin-left: -20.73px;
+}
+
+.dot_click {
+    cursor: pointer;
+}
+
+.row_left::before {
+    content: '⟵';
+    cursor: pointer;
+}
+
+.row_right::after {
+    content: '⟶';
+    cursor: pointer;
+}
+
+.row {
+    font-size: 28px;
+    padding: 0 20.73px;
+}
+
+.dot {
+    padding: 0 8.77px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    box-sizing: border-box;
+}
+
+.yo {
+    font-family: YesevaOne;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.block {
+    height: 1074px;
+    background-color: #131313;
+    color: white;
+}
+
+.block_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 134.45px;
+    padding-right: 134.55px;
+    padding-top: 107px;
+    position: relative;
+}
+
+.info_title {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 24.95px;
+    font-weight: 100;
+    color: #e3b873;
+}
+
+.project_info h2 {
+    padding-top: 69.36px;
+    width: 253px;
+    color: #e3b873;
+    font-size: 27px;
+    line-height: 37.42px;
+    font-weight: 100;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2);
+}
+
+.description {
+    margin-top: 34px;
+    margin-bottom: 42px;
+    width: 442px;
+    font-size: 14px;
+    line-height: 26.73px;
+}
+
+.info_content {
+    margin-top: 9px;
+    font-size: 13px;
+    line-height: 21.28px;
+}
+
+.project_example ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    margin-left: -60.5px;
+}
+
+.project_example a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    line-height: 19.4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.project_example a:hover {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.project_example li {
+    padding-left: 60.5px;
+}
+
+.project_example img {
+    margin-top: 45px;
+}
